@@ -1,0 +1,20 @@
+{
+  "name": "magis-www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "echo \"Pulling on joeldare.com/magis/\";ssh root@joeldare.com \"cd /var/www/joeldare/magis;git pull\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codazoda/magis-www.git"
+  },
+  "author": "Joel Dare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codazoda/magis-www/issues"
+  },
+  "homepage": "https://github.com/codazoda/magis-www#readme"
+}
