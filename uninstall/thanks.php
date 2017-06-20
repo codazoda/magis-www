@@ -1,6 +1,13 @@
 <?php
 
-    mail('joel@joeldare.com', 'Magis Uninstall Feedback', $_REQUEST['feedback'], null, '-r noreply@fauxbuy.com');
+// Setup the email
+$to = 'joel@joeldare.com';
+$headers = 'From: noreply@fauxbuy.com' . "\r\n";
+$message = $_POST['feedback'];
+$subject = "Magis Uninstall Feedback";
+
+// Send the order email
+mail($to, $subject, $message, $headers, '-r noreply@fauxbuy.com');
 
 ?>
 
