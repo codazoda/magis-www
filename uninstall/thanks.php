@@ -1,6 +1,6 @@
 <?php
 
-    mail('joel@joeldare.com', 'Magis Uninstall Feedback', $_REQUEST['feedback']);
+    mail('joel@joeldare.com', 'Magis Uninstall Feedback', $_REQUEST['feedback'], null, '-r noreply@fauxbuy.com');
 
 ?>
 
