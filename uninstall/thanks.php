@@ -1,7 +1,7 @@
 <?php
 
 // Setup the email
-$to = 'joel@joeldare.com';
+$to = 'codazoda@gmail.com';
 $headers = 'From: noreply@fauxbuy.com' . "\r\n";
 $message = $_POST['feedback'];
 $subject = "Magis Uninstall Feedback";
