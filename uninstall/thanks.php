@@ -60,7 +60,6 @@ mail($to, $subject, $message, $headers, '-r noreply@fauxbuy.com');
     <div class="row">
       <div class="twelve columns" style="margin-top: 20%">
         <h1>Thank you.</h1>
-        <p><?= $_POST['feedback'] ?></p>
       </div>
     </div>
   </div>
